@@ -11,7 +11,7 @@ classifier = load_model()
 st.title("Klasifikacija Upita (Zero-Shot)")
 
 # User input
-user_text = text = st.text_input(
+user_text = st.text_input(
         "Please enter a term to classify.",
         value="",
         max_chars=100,
